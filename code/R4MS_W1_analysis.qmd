@@ -1,7 +1,9 @@
 ---
 title: "R for Marine Science – Workshop 1"
 subtitle: "Data Wrangling and Visualization"
-format: html
+format:
+  html:
+    embed-resources: true
 editor: visual
 ---
 
