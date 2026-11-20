@@ -4,6 +4,7 @@ author: "Jake Davis"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
  html_document:
+    self_contained: true
     code_folding: show
     collapse: no
     df_print: paged
