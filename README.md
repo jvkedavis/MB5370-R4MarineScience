@@ -12,6 +12,7 @@ I worked through importing different file formats, inspecting data structures, a
 
 - [R script](code/R4MS_W1.R)
 - [Quarto analysis](code/R4MS_W1_analysis.qmd)
+- [Rendered HTML report](code/R4MS_W1_analysis.html)
 - [Body mass boxplot](outputs/figures/R4MS_W1_penguin_boxplot.png)
 - [Summary table](outputs/tables/R4MS_W1_penguin_summary.csv)
 
@@ -22,6 +23,7 @@ This exercise focused on bringing together multiple datasets collected across th
 Salinity was the main environmental variable explored, although temperature and turbidity were also considered when interpreting the patterns.
 
 - [Analysis document](code/R4MS_W2_FinalEx.qmd)
+- [Rendered HTML report](code/R4MS_W2_FinalEx.html)
 - [Sensor processing script](code/R4MS_diw_sensor.R)
 - [Fish abundance figure](outputs/figures/R4MS_W2_fish_abundance.png)
 
@@ -32,13 +34,14 @@ For the final workshop, I examined macroalgal biomass data from coastal Maine, d
 I aggregated taxon-level observations into quadrat-level algal groups and compared biomass distributions across four regions. The reconstructed figures display individual observations alongside regional means, while also illustrating some of the trade-offs involved in choosing how ecological data are presented. The analysis is descriptive, and the report discusses limitations related to missing values, sampling structure, and visual interpretation.
 
 - [Quarto analysis and written interpretation](code/R4MS_W3_Kelp.qmd)
+- [Rendered HTML report](code/R4MS_W3_Kelp.html)
 - [Macroalgal biomass figure](outputs/figures/R4MS_W3_macroalgal_biomass.png)
 - [Kelp and turf algae comparison](outputs/figures/R4MS_W3_kelp_turf_comparison.png)
 - [Source dataset](data/workshop3/Data1_macroalgae_biomass.csv)
 
 ## Repository structure
 
-- `code/` — R scripts and Quarto/R Markdown analysis documents
+- `code/` — R scripts, Quarto/R Markdown analysis documents, and rendered HTML reports
 - `data/workshop1/`, `data/workshop2/`, and `data/workshop3/` — workshop datasets and source materials
 - `outputs/figures/` — exported figures
 - `outputs/tables/` — exported summary tables
@@ -47,7 +50,7 @@ I aggregated taxon-level observations into quadrat-level algal groups and compar
 
 The code was written in R and RStudio, with reports prepared in Quarto or R Markdown. The scripts use packages including `tidyverse`, `ggplot2`, `readxl`, `palmerpenguins`, and `here`; package requirements vary by workshop.
 
-Several scripts use `here::here()` to reference the `data/` and `outputs/` folders. For that reason, they are best run with the repository opened as an RStudio project and the existing folder structure kept intact. The source analysis documents are provided, but rendered HTML reports are not currently included in this repository.
+Several scripts use `here::here()` to reference the `data/` and `outputs/` folders. For that reason, they are best run with the repository opened as an RStudio project and the existing folder structure kept intact. The source analysis documents and rendered HTML reports for all three workshops are included. GitHub may show HTML files as source code or offer them for download; download an HTML report and open it in a browser to view the formatted document.
 
 ## About this work
 
